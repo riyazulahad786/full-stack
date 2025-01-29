@@ -29,7 +29,7 @@ function Services() {
       <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6'>
         {services.map((service, index) => (
           <div key={index} className='flex flex-col items-center text-center p-4  rounded-lg  hover:shadow-xl transition duration-300'>
-            <Image src={service.img} alt={service.title} width={80} height={80} />
+            <Image alt="image" src={service.img} alt={service.title} width={80} height={80} />
             <h2 className='text-lg font-semibold mt-4'>{service.title}</h2>
             <p className='text-gray-500 mt-2'>{service.desc}</p>
             <div className="py-3">

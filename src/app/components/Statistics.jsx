@@ -29,11 +29,11 @@ function Statistics() {
           <div key={index} className='flex flex-col items-center text-center p-4  rounded-lg transition duration-300'>
            <div className='flex'> 
            <div>
-              <Image src={stat.img} alt={stat.label} />
+              <Image  src={stat.img} alt={stat.label} />
             
             </div>
             <div>
-            <Image src={plus} alt='plus' className='mx-2' height={5} width={20}/>
+            <Image  src={plus} alt='plus' className='mx-2' height={5} width={20}/>
             </div>
            </div>
             <h2 className='mt-2 font-bold'>{stat.label}</h2>

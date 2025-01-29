@@ -11,7 +11,7 @@ function Journey() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-center gap-9">
         {/* Step 1 */}
         <div className="flex items-center justify-center gap-3">
-          <Image
+          <Image alt="image"
             size={20}
             src={letter}
             className="bg-[#ee5555] p-2 h-[40px] w-[40px] rounded-full"
@@ -21,7 +21,7 @@ function Journey() {
 
         {/* Step 2 */}
         <div className="flex items-center justify-center gap-3">
-          <Image
+          <Image alt="image"
             size={20}
             src={contactForm1}
             className="bg-[green] p-2 h-[40px] w-[40px] rounded-full"
@@ -31,7 +31,7 @@ function Journey() {
 
         {/* Step 3 */}
         <div className="flex items-center justify-center gap-3">
-          <Image
+          <Image alt="image"
             size={20}
             src={contactForm}
             className="bg-[#F2994A] p-2 h-[40px] w-[40px] rounded-full"
@@ -41,7 +41,7 @@ function Journey() {
 
         {/* Step 4 */}
         <div className="flex items-center justify-center gap-3">
-          <Image
+          <Image alt="image"
             size={20}
             src={email}
             className="bg-[gray] p-2 h-[40px] w-[40px] rounded-full"

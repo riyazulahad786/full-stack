@@ -42,6 +42,8 @@ function Video() {
                 <video
                   src="https://www.youtube.com/watch?v=-FKQwXtrSSQ"
                   controls
+                  autoPlay
+                  loop
                   className="w-full h-56 md:h-72 lg:h-80 rounded-lg"
                 >
                   Your browser does not support the video tag.

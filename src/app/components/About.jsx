@@ -7,13 +7,13 @@ import dots from "../assets/dots.png";
 function About() {
   return (
     <div className="container mx-auto py-4 px-4 relative">
-      <Image
+      <Image 
         src={backgroundimage1}
         alt="Background"
         className="absolute inset-y-0  right-0 w-auto h-full object-cover z-0"
         priority
       />
-      <Image
+      <Image 
         src={dots}
         alt="Background"
         className="absolute bottom-0 right-0 w-auto h-auto object-contain z-0 lg:block hidden"

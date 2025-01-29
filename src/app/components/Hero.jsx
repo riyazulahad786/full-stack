@@ -15,11 +15,11 @@ function Hero() {
   return (
     <div className="container-fluid mx-auto relative w-full h-screen flex py-4">
       {/* Background Image */}
-      <Image
+      <Image alt="image" 
         src={backgroundimage}
         layout="fill"
         objectFit="cover"
-        alt="Background"
+    
         className="absolute inset-0 -z-10"
       />
 
@@ -27,11 +27,11 @@ function Hero() {
       <div className="container lg:ml-12 flex flex-col py-5 max-w-2xl justify-start px-4">
         <div className="absolute top-5 flex items-center  gap-3">
           <div>
-            <Image src={star2} />
+            <Image alt="image" src={star2} />
           </div>
           <p>Google ratings</p>
           <div>
-            <Image src={star1} />
+            <Image alt="image"  src={star1} />
           </div>
         </div>
         <div className="lg:py-5">
@@ -55,21 +55,21 @@ function Hero() {
               <LuLayoutDashboard size={30} />
             </div>
             <div className="mx-1">
-              <Image src={image1} />
+              <Image alt="image"  src={image1} />
               <p>customer Rating</p>
             </div>
             <div className="sm:hidden">
-              <Image src={hand} />
+              <Image alt="image"  src={hand} />
             </div>
             <div className="mx-2 ">
-              <Image src={image2} />
+              <Image alt="image"  src={image2} />
               <p>clients</p>
             </div>
             <div>
-              <Image src={hand} />
+              <Image alt="image"  src={hand} />
             </div>
             <div className="mx-2">
-              <Image src={image3} />
+              <Image alt="image"  src={image3} />
               <p>Financial Stability</p>
             </div>
           </div>

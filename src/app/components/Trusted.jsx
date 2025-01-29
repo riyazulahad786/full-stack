@@ -13,19 +13,19 @@ function Trusted() {
          </div>
          <div className='flex justify-around mt-4 py-2 items-center gap-8'>
             <div>
-                <Image src={segment}/>
+                <Image alt="image" src={segment}/>
             </div>
             <div>
-                <Image src={morphus}/>
+                <Image alt="image" src={morphus}/>
             </div>
             <div>
-                <Image src={monday}/>
+                <Image alt="image" src={monday}/>
             </div>
             <div>
-                <Image src={sumsang}/>
+                <Image alt="image" src={sumsang}/>
             </div>
             <div>
-                <Image src={oracle}/>
+                <Image alt="image" src={oracle}/>
             </div>
          </div>
     </div>

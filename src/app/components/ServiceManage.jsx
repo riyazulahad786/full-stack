@@ -27,7 +27,7 @@ function ServiceManage() {
           </p>
         </div>
         <div>
-          <Image src={service} />
+          <Image alt="image" src={service} />
         </div>
       </div>
     </div>

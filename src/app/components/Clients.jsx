@@ -15,7 +15,7 @@ function Clients() {
         </p>
       </div>
       <div className="py-2">
-        <Image src={client} />
+        <Image alt="image" src={client} />
       </div>
       <div className="flex gap-2 items-center justify-center cursor-pointer">
         <span className="text-blue-600">show more</span>{" "}

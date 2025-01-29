@@ -20,7 +20,7 @@ function ChooseUs() {
           <div className="flex justify-end items-end mt-4">
             <div className="text-center bg-[#EDF3FF] px-3 py-4 w-[250px]">
               <div className="flex justify-center items-center">
-                <Image src={emoji} />
+                <Image alt="image" src={emoji} />
               </div>
               <h2 className="font-bold py-1">Guaranteed Satisfaction</h2>
               <p className="text-sm">
@@ -38,7 +38,7 @@ function ChooseUs() {
             <div className="w-full sm:w-1/2 lg:w-[250px]">
               <div className="text-center bg-[#FCDDEC] px-3 py-4">
                 <div className="flex justify-center items-center">
-                  <Image src={shield} />
+                  <Image alt="image" src={shield} />
                 </div>
                 <h2 className="font-bold py-1">Confident and safe</h2>
                 <p className="text-sm">
@@ -51,7 +51,7 @@ function ChooseUs() {
             <div className="w-full sm:w-1/2 lg:w-[250px]">
               <div className="text-center bg-[#EDF3FF] px-3 py-4">
                 <div className="flex justify-center items-center">
-                  <Image src={check} />
+                  <Image alt="image" src={check} />
                 </div>
                 <h2 className="font-bold py-1">No hidden fees</h2>
                 <p className="text-sm">
@@ -67,7 +67,7 @@ function ChooseUs() {
             <div className="w-full sm:w-1/2 lg:w-[250px]">
               <div className="text-center bg-[#FCDDEC] px-3 py-4">
                 <div className="flex justify-center items-center">
-                  <Image src={user} />
+                  <Image alt="image" src={user} />
                 </div>
                 <h2 className="font-bold py-1">Expert CA/CS Assistance</h2>
                 <p className="text-sm">
@@ -80,7 +80,7 @@ function ChooseUs() {
             <div className="w-full sm:w-1/2 lg:w-[250px]">
               <div className="text-center bg-[#EDF3FF] px-3 py-4">
                 <div className="flex justify-center items-center">
-                  <Image src={shield} />
+                  <Image alt="image" src={shield} />
                 </div>
                 <h2 className="font-bold py-1">Confident and safe</h2>
                 <p className="text-sm">

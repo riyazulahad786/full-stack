@@ -15,7 +15,7 @@ const Partners = () => {
     <div className="container mx-auto lg:px-5 logos">
       <div className="logo_items">
         {images.concat(images).map((img, index) => (
-          <Image key={index} src={img} alt="Partner logo" width={100} height={60} />
+          <Image alt="image" key={index} src={img} alt="Partner logo" width={100} height={60} />
         ))}
       </div>
     </div>
