@@ -1,0 +1,29 @@
+@keyframes slides {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .logos {
+    overflow: hidden;
+    padding: 30px 0;
+    white-space: nowrap;
+    position: relative;
+    display: flex;
+  }
+  
+  .logo_items {
+    display: flex;
+    animation: slides 15s linear infinite;
+  }
+  
+  .logo_items img {
+    height: 60px;
+    width: 100px;
+    margin: 0 15px;
+    flex-shrink: 0; /* Prevent images from shrinking */
+  }
+  

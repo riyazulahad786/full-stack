@@ -2,26 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.ctn{
+  background-color: #FFA229;
+  color: white;
+}
+.top_nav{
+  background-color: #1C4670;
+  color: white;
+}
+.footer{
+  background-color: #011B5B;
+}
+.video_section{
+  background-color: #1C4670;
+  color: white;
+}
+.video_icons{
+  background-color: #FFA229;
+  color: white;
+  
+}
+.service{
+  background-color: #1C4670;
+  color: white;
+}
+.industry_background {
+  background: linear-gradient(to right, #FFA229, #1C4670);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.learn_more{
+  background-color: #1C4670;
+  color: white;
 }
